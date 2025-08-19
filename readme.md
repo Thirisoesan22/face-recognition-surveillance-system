@@ -62,10 +62,11 @@ To enhance safety and security, the system raises an alarm whenever an *unknown*
    `python app.py`
 5. Test individual images:  
    `python single_test.py`
-
+   
 ---
 
 ## 📝 Notes
+- Download the weights here `https://www.mediafire.com/file/lp8io7zsathd2ai/files.zip/file`
 - Ensure the **pre-trained weights** file is available: `weights/MS_Celeb_weight.h5`.
 - All models and extracted features are saved under the `file/` directory.
 - Compatible with **Python 3.6.8**; minor adjustments may be required for newer Python versions.
@@ -118,5 +119,6 @@ network and 2 hidden layers each followed by a dropout layer. The output layer i
 - [Keras Face Recognition Example](https://keras.io/examples/vision/face_recognition/)
 
 ---
+
 
 
