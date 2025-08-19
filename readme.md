@@ -110,7 +110,7 @@ network and 2 hidden layers each followed by a dropout layer. The output layer i
   The screenshot below shows the system successfully identifying multiple faces appearing in the monitoring area at the same time.  
 
 
-![Alt text](images/recognizing-known-and-unknown-in-real-time.jpg)
+![Alt text](recognizing-known-and-unknown-in-real-time.jpg)
 ---
 
 ## 📌 References
@@ -118,4 +118,5 @@ network and 2 hidden layers each followed by a dropout layer. The output layer i
 - [Keras Face Recognition Example](https://keras.io/examples/vision/face_recognition/)
 
 ---
+
 
