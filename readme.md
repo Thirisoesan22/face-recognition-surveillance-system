@@ -87,25 +87,25 @@ Multi-task Cascaded Convolutional Neural Network (MTCNN) is a deep learning–ba
 
 InceptionResNetV1 is used for feature extraction. The structure & layers of InceptionResNetV1 used in this project are as follows:
 
-![Alt text](images/InceptionResNetV1_structure.jpg)
+![Alt text](InceptionResNetV1_structure.jpg)
 
-![Alt text](images/InceptionResNetV1_layers.jpg)
+![Alt text](InceptionResNetV1_layers.jpg)
 
 ---
 ## Classification
 In the classification layer of this system, the model consists of the following components: This input layer takes the 128 vector embedding generated from the Inception-ResNet-V1 model which serves as the entry point for the data into the neural 
 network and 2 hidden layers each followed by a dropout layer. The output layer includes neurons corresponding to the number of target classes. It uses the Softmax activation function to convert the output into a probability distribution over the classes, making it suitable for multi-class classification. 
 
-![Alt text](images/classification_nn.jpg)
+![Alt text](classification_nn.jpg)
 
 ---
 ## 🖼️ System Implementation Result  
 
    The following screenshots illustrate the step-by-step process of how the face recognition system analyzes a human face image, identifies it, and classifies it with a label (known or unknown) along with the corresponding probability.
 
-![Alt text](images/known.jpg)
+![Alt text](known.jpg)
 
-![Alt text](images/unknown.jpg)
+![Alt text](unknown.jpg)
 
   The screenshot below shows the system successfully identifying multiple faces appearing in the monitoring area at the same time.  
 
@@ -118,3 +118,4 @@ network and 2 hidden layers each followed by a dropout layer. The output layer i
 - [Keras Face Recognition Example](https://keras.io/examples/vision/face_recognition/)
 
 ---
+
